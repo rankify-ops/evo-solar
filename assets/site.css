@@ -120,6 +120,11 @@ body.light-hero .why-sec .wcard{background:var(--g50)}
 .hero-glass .hg-icon svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
 .hero-glass .hg-val{font-size:1.15rem;font-weight:800;color:#fff;line-height:1}
 .hero-glass .hg-label{font-size:.65rem;color:rgba(255,255,255,.6);font-weight:500}
+.hero-trust{margin-top:32px;text-align:center}
+.hero-trust-label{display:inline-block;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:rgba(255,255,255,.5);margin-bottom:14px}
+.hero-trust-badges{display:flex;justify-content:center;gap:24px;flex-wrap:wrap}
+.hero-badge{display:flex;align-items:center;gap:8px;color:rgba(255,255,255,.75);font-size:.8rem;font-weight:600}
+.hero-badge svg{width:20px;height:20px;stroke:var(--orange);fill:none;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
 
 /* PAGE HERO */
 .phero{position:relative;overflow:hidden;padding:160px 0 80px;background:linear-gradient(135deg,#061c30 0%,#0d3350 100%);background-size:cover;background-position:center;background-repeat:no-repeat}
@@ -437,6 +442,8 @@ textarea.finp{resize:vertical;min-height:90px}
   .hero-inner{padding:120px 0 70px}
   .hero-cards{flex-wrap:wrap}
   .hero-glass{flex:1 1 calc(50% - 5px);min-width:calc(50% - 5px)}
+  .hero-trust-badges{gap:12px 20px}
+  .hero-badge{font-size:.72rem}
   .benefits{margin-top:-32px}
   .benefits-grid{grid-template-columns:1fr 1fr}
   .ben-item{border-bottom:1px solid var(--g100)}
