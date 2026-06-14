@@ -132,7 +132,7 @@ body.light-hero .why-sec .wcard{background:var(--g50)}
 .hb-item p{font-size:.72rem;color:rgba(255,255,255,.6);line-height:1.4}
 .hero-trust{margin-top:28px;text-align:center}
 .hero-trust-label{display:inline-block;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:rgba(255,255,255,.5);margin-bottom:14px}
-.hero-trust-badges{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;max-width:700px;margin:0 auto}
+.hero-trust-badges{display:flex;justify-content:center;align-items:center;gap:40px;flex-wrap:wrap}
 .hero-trust-badges img{height:48px;width:auto;filter:brightness(0) invert(1);opacity:.8;transition:opacity .3s}
 .hero-trust-badges img:hover{opacity:1}
 
