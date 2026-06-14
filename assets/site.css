@@ -151,7 +151,6 @@ body.light-hero .why-sec .wcard{background:var(--g50)}
 .phero-btns{display:inline-flex;gap:10px;flex-wrap:wrap;justify-content:center}
 
 /* BENEFITS STRIP */
-.benefits{padding:0;position:relative;z-index:2;margin-top:-48px}
 .benefits-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;background:var(--white);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow-l)}
 .ben-item{padding:28px 24px;text-align:center;transition:all .3s;cursor:default}
 .ben-item:hover{background:var(--g50)}
