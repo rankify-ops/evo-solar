@@ -217,10 +217,4 @@
       b.addEventListener('click', function(){ if(cs<=1) return; cs--; upd(); });
     });
   });
-  document.querySelectorAll('.btn-p, .btn-dark, .pcta').forEach(function(btn){
-    if(btn.querySelector('span')) return;
-    var txt = btn.textContent.trim();
-    btn.setAttribute('data-text', txt);
-    btn.innerHTML = '<span>' + btn.innerHTML.trim() + '</span>';
-  });
 })();
