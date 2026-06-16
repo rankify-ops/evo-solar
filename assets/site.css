@@ -276,6 +276,8 @@ body.light-hero .why-sec .wcard{background:var(--g50)}
 .rc-tot{margin-top:14px;padding:18px;background:var(--orange-light);border-radius:var(--rxs);display:flex;justify-content:space-between;align-items:center;border:1px solid rgba(27,122,109,.1)}
 .rc-tot .l{font-weight:700;color:var(--g900)}
 .rc-tot .v{font-size:1.7rem;font-weight:800;color:var(--orange)}
+.rc-note{margin-top:18px;padding:14px 16px;background:var(--red-light);border-radius:var(--rxs);font-size:.8rem;color:var(--g700);line-height:1.6;border-left:3px solid var(--red)}
+.rc-note strong{color:var(--red)}
 
 /* PROCESS STEPS */
 .proc{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:44px;position:relative}
