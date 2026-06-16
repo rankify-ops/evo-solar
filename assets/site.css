@@ -309,6 +309,26 @@ body.light-hero .why-sec .wcard{background:var(--g50)}
 .pd-download:hover{color:var(--orange);border-color:var(--orange)}
 .pd-download svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
 
+/* NEWS CARDS */
+.news-g{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.news-card{background:var(--white);border-radius:var(--r);overflow:hidden;border:1px solid var(--g200);transition:transform .2s,box-shadow .2s;text-decoration:none;color:inherit}
+.news-card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(0,0,0,.08)}
+.nc-img{aspect-ratio:16/10;overflow:hidden}
+.nc-img img{width:100%;height:100%;object-fit:cover;transition:transform .3s}
+.news-card:hover .nc-img img{transform:scale(1.05)}
+.nc-body{padding:20px 22px 24px}
+.nc-date{font-size:.76rem;font-weight:600;color:var(--g400);text-transform:uppercase;letter-spacing:.5px}
+.nc-body h4{font-size:1.05rem;font-weight:700;color:var(--g900);margin:8px 0 10px;line-height:1.35}
+.nc-body p{font-size:.88rem;color:var(--g600);line-height:1.6;margin:0}
+.nc-link{display:inline-block;margin-top:14px;font-size:.85rem;font-weight:700;color:var(--orange)}
+
+/* INSTAGRAM GRID */
+.ig-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.ig-card{background:var(--white);border-radius:var(--r);overflow:hidden;border:1px solid var(--g200);transition:transform .2s,box-shadow .2s}
+.ig-card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(0,0,0,.08)}
+.ig-card iframe{width:100%;aspect-ratio:9/16;min-height:480px;display:block}
+.ig-cap{padding:14px 16px;font-size:.85rem;font-weight:600;color:var(--g700);line-height:1.4}
+
 /* SPEC TABLE */
 .spec-tbl{width:100%;border-collapse:collapse;margin-top:24px;background:var(--white);border-radius:var(--r);overflow:hidden;border:1px solid var(--g200)}
 .spec-tbl tr{border-bottom:1px solid var(--g100)}
@@ -466,8 +486,12 @@ textarea.finp{resize:vertical;min-height:90px}
   .hero-bg img{object-position:78% center}
   .phero{padding:130px 0 64px}
   .og.cols-3{grid-template-columns:1fr 1fr}
+  .ig-grid{grid-template-columns:repeat(2,1fr)}
+  .ig-card iframe{min-height:400px}
+  .news-g{grid-template-columns:1fr}
 }
 @media(max-width:480px){
   .foot-g{grid-template-columns:1fr}
   .proc{grid-template-columns:1fr}
+  .ig-grid{grid-template-columns:1fr}
 }
