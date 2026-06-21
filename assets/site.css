@@ -152,7 +152,7 @@ body.light-hero .why-sec .wcard{background:var(--g50)}
 
 /* BENEFITS STRIP */
 .benefits{padding:0;position:relative;z-index:2;margin-top:-48px}
-.benefits-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;background:var(--white);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow-l)}
+.benefits-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;background:var(--white);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow-l);min-width:0}
 .ben-item{padding:28px 24px;text-align:center;transition:all .3s;cursor:default}
 .ben-item:hover{background:var(--g50)}
 .ben-item:hover .ben-ico{transform:translateY(-3px)}
@@ -472,9 +472,6 @@ textarea.finp{resize:vertical;min-height:90px}
   .hero-glass{flex:1 1 calc(50% - 5px);min-width:calc(50% - 5px)}
   .hero-benefits{grid-template-columns:1fr}
   .benefits{margin-top:-32px}
-  .benefits-grid{grid-template-columns:1fr 1fr}
-  .ben-item{border-bottom:1px solid var(--g100)}
-  .ben-item:nth-child(2n){border-right:none}
   .hero-trust-badges{gap:12px 24px;justify-content:center}
   .hero-trust-badges img{height:48px}
   .prod-g,.prod-g.cols-4{grid-template-columns:1fr}
@@ -495,8 +492,13 @@ textarea.finp{resize:vertical;min-height:90px}
   .ig-card iframe{min-height:400px}
   .news-g{grid-template-columns:1fr}
 }
+@media(max-width:700px){
+  .benefits-grid{grid-template-columns:1fr 1fr}
+  .ben-item{border-bottom:1px solid var(--g100)}
+}
 @media(max-width:480px){
   .foot-g{grid-template-columns:1fr}
   .proc{grid-template-columns:1fr}
   .ig-grid{grid-template-columns:1fr}
+  .benefits-grid{grid-template-columns:1fr}
 }
