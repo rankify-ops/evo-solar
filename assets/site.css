@@ -128,7 +128,7 @@ body.light-hero .why-sec .wcard{background:var(--g50)}
 .hb-item p{font-size:.72rem;color:rgba(255,255,255,.6);line-height:1.4}
 .hero-trust{margin-top:28px;text-align:center}
 .hero-trust-label{display:inline-block;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:rgba(255,255,255,.5);margin-bottom:14px}
-.hero-trust-badges{display:flex;justify-content:center;align-items:center;gap:48px;flex-wrap:wrap;max-width:680px;margin:0 auto}
+.hero-trust-badges{display:flex;justify-content:center;align-items:center;gap:48px;flex-wrap:nowrap;max-width:900px;margin:0 auto}
 .hero-trust-badges img{height:64px;width:auto;filter:brightness(0) invert(1);opacity:.85;transition:opacity .3s}
 .hero-trust-badges img[alt*="Tesla"]{height:140px;filter:none}
 .hero-trust-badges img:hover{opacity:1}
