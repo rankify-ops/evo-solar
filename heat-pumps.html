@@ -100,7 +100,7 @@
       <h1 class="fade">Heat <span class="em">Pumps</span></h1>
       <p class="fade">A select range of trusted heat pump brands across every budget &mdash; from value all-in-one systems to premium Australian-made split systems with CO&#8322; refrigerant. Every system fully rebate-eligible.</p>
       <div class="phero-btns fade">
-        <a href="contact.html" class="btn-p">Get a Free Quote</a>
+        <a href="#quote-form" class="btn-p">Get a Free Quote</a>
         <a href="tel:0411375484" class="btn-glass">Call 0411 375 484</a>
       </div>
     </div>
@@ -270,14 +270,64 @@
   </div>
 </section>
 
-<!-- CTA STRIP -->
-<section class="cta-strip">
+<!-- QUOTE FORM -->
+<section class="sec form-sec" id="quote">
   <div class="ctr">
-    <h2 class="fade">Ready for Efficient Hot Water?</h2>
-    <p class="fade">Get a free, no-obligation quote from Evo Solar. Our team will help you choose the perfect heat pump hot water system for your home.</p>
-    <div class="cta-strip-btns fade">
-      <a href="contact.html" class="btn-p">Get a Free Quote</a>
-      <a href="tel:0411375484" class="btn-glass">Call 0411 375 484</a>
+    <div class="form-g">
+      <div class="form-info fade">
+        <div class="sec-tag">Free Quote</div>
+        <h2 class="sec-t">Get a free heat pump quote</h2>
+        <p class="sec-sub">Answer a few quick questions and we'll come back with a personalised heat pump recommendation and your full rebate breakdown.</p>
+        <div class="fperks">
+          <div class="fperk"><div class="fpd">&#10003;</div>No obligation &mdash; completely free</div>
+          <div class="fperk"><div class="fpd">&#10003;</div>See your exact rebate eligibility</div>
+          <div class="fperk"><div class="fpd">&#10003;</div>Personalised system recommendation</div>
+          <div class="fperk"><div class="fpd">&#10003;</div>Fast, friendly response</div>
+        </div>
+      </div>
+      <div class="qform fade" data-context="Heat Pump Quote" data-to="cam@evosolar.com.au" id="quote-form">
+        <div class="qform-head"><div class="qh-tag">Free Quote</div><h3>Heat Pump Quote</h3></div>
+        <div class="fsteps"><div class="fstep active"></div><div class="fstep"></div><div class="fstep"></div></div>
+        <div class="fslide active" data-s="1" data-field="Current System">
+          <h3>What's your current hot water system?</h3><p class="fsub">This helps us calculate your rebate eligibility.</p>
+          <div class="og">
+            <button class="ob" data-v="Electric"><div class="oico"><svg viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg></div><span class="olbl">Electric</span></button>
+            <button class="ob" data-v="Gas"><div class="oico"><svg viewBox="0 0 24 24"><path d="M12 2c-2 3-5 6-5 11a5 5 0 0 0 10 0c0-4-3-7-5-11Z"/></svg></div><span class="olbl">Gas</span></button>
+            <button class="ob" data-v="Solar"><div class="oico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg></div><span class="olbl">Solar</span></button>
+            <button class="ob" data-v="Not Sure"><div class="oico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div><span class="olbl">Not Sure</span></button>
+          </div>
+        </div>
+        <div class="fslide" data-s="2" data-field="Household Size">
+          <h3>How many people in your household?</h3><p class="fsub">We'll recommend the right tank size.</p>
+          <div class="og">
+            <button class="ob" data-v="1-2"><div class="oico"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1c0-4 4-6 8-6s8 2 8 6v1"/></svg></div><span class="olbl">1&ndash;2</span></button>
+            <button class="ob" data-v="3-4"><div class="oico"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20v-1c0-3 3-5 6-5s6 2 6 5v1M15 20v-1c0-2 2-3 4-3s4 1 4 3v1"/></svg></div><span class="olbl">3&ndash;4</span></button>
+            <button class="ob" data-v="5+"><div class="oico"><svg viewBox="0 0 24 24"><circle cx="7" cy="9" r="2.2"/><circle cx="17" cy="9" r="2.2"/><path d="M2 21v-1c0-2 2-3.5 5-3.5s5 1.5 5 3.5v1M12 21v-1c0-2 2-3.5 5-3.5s5 1.5 5 3.5v1"/></svg></div><span class="olbl">5+</span></button>
+            <button class="ob" data-v="Not Sure"><div class="oico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div><span class="olbl">Not Sure</span></button>
+          </div>
+          <div class="fnav"><button class="fb">Back</button></div>
+        </div>
+        <div class="fslide" data-s="3">
+          <h3>Your details</h3><p class="fsub">We'll be in touch shortly with your quote.</p>
+          <input type="text" class="finp" placeholder="Name" autocomplete="name">
+          <input type="tel" class="finp" placeholder="Phone" autocomplete="tel">
+          <input type="email" class="finp" placeholder="Email" autocomplete="email">
+          <input type="text" class="finp" placeholder="Suburb" autocomplete="address-level2" data-optional>
+          <textarea class="finp" placeholder="Anything else? (optional)" data-optional></textarea>
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+          <div class="fnav"><button class="fb">Back</button><button class="fn" data-action="submit">Get My Free Quote</button></div>
+        </div>
+        <div class="fslide" data-s="4">
+          <div style="text-align:center;padding:40px 0">
+            <div style="width:64px;height:64px;background:var(--green-light);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 18px">
+              <svg style="width:32px;height:32px;stroke:var(--green);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>
+            </div>
+            <h3 style="margin-bottom:8px">Thanks! We'll be in touch soon.</h3>
+            <p class="fsub" style="margin-bottom:24px">One of our experts will contact you within 24 hours with your personalised heat pump recommendation.</p>
+            <a href="tel:0411375484" class="btn-dark" style="font-size:.88rem;padding:12px 24px">Call Now: 0411 375 484</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -333,7 +383,7 @@
 <!-- STICKY BAR -->
 <div class="sticky">
   <a href="tel:0411375484" class="sc">Call Now</a>
-  <a href="contact.html" class="sq">Get a Quote</a>
+  <a href="#quote-form" class="sq">Get a Quote</a>
 </div>
 
 <script src="assets/site.js"></script>
