@@ -477,7 +477,7 @@ textarea.finp{resize:vertical;min-height:90px}
   .hero-trust-badges{display:grid;grid-template-columns:1fr 1fr;gap:12px 20px;justify-items:center;padding:0}
   .hero-trust-badges img{height:36px}
   .hero-trust-badges img[alt*="SAA"]{height:28px}
-  .hero-trust-badges img[alt*="Tesla"]{height:48px;margin-left:0}
+  .hero-trust-badges img[alt*="Tesla"]{height:96px;margin-left:0}
   .prod-g,.prod-g.cols-4{grid-template-columns:1fr}
   .rcard{width:300px;min-width:300px}
   .why-g{grid-template-columns:1fr}
