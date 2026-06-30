@@ -550,7 +550,7 @@ textarea.finp{resize:vertical;min-height:90px}
   .proc{grid-template-columns:1fr 1fr}
   .foot-g{grid-template-columns:1fr 1fr}
   .sticky{display:flex}body{padding-bottom:80px}
-  .sec{padding:72px 0}
+  .sec{padding:44px 0}
   .form-img{display:none}
   .qform-head{display:block}
   .hero-bg img{object-position:78% center}
