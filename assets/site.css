@@ -520,10 +520,12 @@ textarea.finp{resize:vertical;min-height:90px}
   .trust-stats .wstat p{font-size:.72rem}
   .trust-stats .wstat-ico{width:48px;height:48px;margin-bottom:10px}
   .trust-stats .wstat-ico svg{width:24px;height:24px}
-  .hero-trust-grid img{height:36px}
-  .hero-trust-grid img[alt*="SAA"]{height:28px}
-  .hero-trust-grid img[alt*="Tesla"]{height:auto;width:100%;max-width:112px}
-  .prod-g,.prod-g.cols-4{grid-template-columns:1fr}
+  .hero-right{padding-left:0;align-items:stretch}
+  .hero-trust-grid{gap:16px 24px;width:100%}
+  .hero-trust-grid img{height:auto;width:100%;max-width:none;object-fit:contain}
+  .hero-trust-grid img[alt*="SAA"]{height:auto}
+  .hero-trust-grid img[alt*="Tesla"]{max-width:none}
+  .prod-g,.prod-g.cols-4{grid-template-columns:1fr 1fr}
   .rcard{width:300px;min-width:300px}
   .why-split{grid-template-columns:1fr;gap:36px}
   .why-stats{grid-template-columns:1fr 1fr}
