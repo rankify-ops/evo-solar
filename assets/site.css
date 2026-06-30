@@ -133,10 +133,9 @@ body.light-hero .why-sec .wcard{background:var(--g50)}
 .hero-trust-badges img[alt*="SAA"]{height:40px;margin-right:-8px}
 .hero-trust-badges img[alt*="Tesla"]{height:110px;filter:none;margin-left:-40px}
 .hero-trust-badges img:hover{opacity:1}
-.trust-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:48px}
-.trust-stats .wstat{background:rgba(255,255,255,.06);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.12);color:#fff}
-.trust-stats .wstat h4{color:#fff}
-.trust-stats .wstat p{color:rgba(255,255,255,.7)}
+.trust-stats-wrap{position:relative;z-index:2;margin-top:-60px;margin-bottom:40px}
+.trust-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.trust-stats .wstat:last-child{grid-column:span 1}
 
 /* PAGE HERO */
 .phero{position:relative;overflow:hidden;padding:160px 0 80px;background:linear-gradient(135deg,#061c30 0%,#0d3350 100%);background-size:cover;background-position:center;background-repeat:no-repeat}
@@ -500,6 +499,7 @@ textarea.finp{resize:vertical;min-height:90px}
   .hero-benefits{grid-template-columns:1fr}
   .benefits{margin-top:-32px}
   .trust-stats{grid-template-columns:1fr 1fr}
+  .trust-stats-wrap{margin-top:-40px;margin-bottom:24px}
   .hero-trust-badges{display:grid;grid-template-columns:1fr 1fr;gap:12px 20px;justify-items:center;padding:0}
   .hero-trust-badges img{height:36px}
   .hero-trust-badges img[alt*="SAA"]{height:28px}
