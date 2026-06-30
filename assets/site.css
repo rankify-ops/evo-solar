@@ -137,7 +137,7 @@ body.light-hero .why-sec .wcard{background:var(--g50)}
 .trust-stats{display:grid;grid-template-columns:repeat(6,1fr);gap:0;background:var(--white);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow-xl);border:1px solid var(--g100)}
 .trust-stats .wstat{padding:28px 20px;border:none;border-radius:0;box-shadow:none;border-right:1px solid var(--g100);transition:all .3s;cursor:default}
 .trust-stats .wstat:last-child{border-right:none}
-.trust-stats .wstat:hover{transform:none;box-shadow:none;background:var(--orange-50)}
+.trust-stats .wstat:hover{transform:none;box-shadow:none;border-color:var(--g100);background:var(--orange-50)}
 .trust-stats .wstat:hover .wstat-ico{background:linear-gradient(135deg,var(--orange),var(--orange-mid));border-color:var(--orange);color:#fff;transform:scale(1.05) rotate(-3deg)}
 .trust-stats .wstat h4{font-size:.92rem;margin-bottom:4px}
 .trust-stats .wstat p{font-size:.78rem}
