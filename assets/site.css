@@ -142,8 +142,8 @@ body.light-hero .why-sec .wcard{background:var(--g50)}
 .trust-stats .wstat:last-child{border-right:none}
 .trust-stats .wstat:hover{transform:none;box-shadow:none;border-color:var(--g100);background:var(--orange-50)}
 .trust-stats .wstat:hover .wstat-ico{background:linear-gradient(135deg,var(--orange),var(--orange-mid));border-color:var(--orange);color:#fff;transform:scale(1.05) rotate(-3deg)}
-.trust-stats .wstat h4{font-size:.92rem;margin-bottom:4px}
-.trust-stats .wstat p{font-size:.78rem}
+.trust-stats .wstat h4{font-size:.78rem;margin-bottom:4px}
+.trust-stats .wstat p{font-size:.68rem}
 .trust-stats .wstat-ico{width:60px;height:60px;margin:0 auto 14px;background:linear-gradient(135deg,var(--orange-light),#fff);border:1px solid var(--orange-light);border-radius:14px;display:flex;align-items:center;justify-content:center;color:var(--orange);transition:all .35s}
 .trust-stats .wstat-ico svg{width:30px;height:30px}
 
