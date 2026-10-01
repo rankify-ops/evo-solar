@@ -103,11 +103,7 @@
       });
     });
     var showSuccess = function(){
-      cs = maxStep + 1;
-      slides.forEach(function(s){ s.classList.remove('active'); });
-      var done = qform.querySelector('.fslide[data-s="'+cs+'"]');
-      if(done) done.classList.add('active');
-      steps.forEach(function(s){ s.classList.remove('active'); s.classList.add('done'); });
+      window.location.href = '/thank-you.html';
     };
     var showError = function(msg){
       var errSlot = qform.querySelector('.qform-error');
