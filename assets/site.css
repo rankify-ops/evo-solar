@@ -406,6 +406,10 @@ body.light-hero .why-sec .wcard{background:var(--g50)}
 .cinfo-card a,.cinfo-card p{display:block;font-size:.92rem;color:var(--g600);line-height:1.6;font-weight:500;transition:color .2s}
 .cinfo-card a:hover{color:var(--orange)}
 .cinfo-card .lbl{font-size:.7rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--g400);font-weight:700;margin-bottom:8px}
+.showroom{margin-top:18px;display:grid;grid-template-columns:minmax(240px,.72fr) 1.4fr;gap:18px;align-items:stretch}
+.showroom .cinfo-card{display:flex;flex-direction:column;align-items:center;justify-content:center}
+.showroom-map{border:1.5px solid var(--g200);border-radius:var(--r);overflow:hidden;min-height:280px;background:var(--g50)}
+.showroom-map iframe{width:100%;height:100%;min-height:280px;border:0;display:block}
 
 /* FAQ */
 .faqs{margin-top:36px}
@@ -548,7 +552,7 @@ textarea.finp{resize:vertical;min-height:90px}
   .proc-ico svg{width:18px;height:18px}
   .proc-badge{width:26px;height:26px;font-size:.72rem;top:-12px}
   .fg{grid-template-columns:1fr}
-  .cinfo{grid-template-columns:1fr}
+  .cinfo,.showroom{grid-template-columns:1fr}
   .proc{grid-template-columns:1fr 1fr}
   .foot-g{grid-template-columns:1fr 1fr}
   .sticky{display:flex}body{padding-bottom:80px}
