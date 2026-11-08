@@ -92,7 +92,7 @@
   .opt:has(input:checked) .tick svg { opacity: 1; }
   .opt:has(input:focus-visible) { outline: 3px solid var(--orange); outline-offset: 2px; }
 
-  .fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 14px; margin-top: 14px; }
+  .fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 14px; margin-top: 14px; align-items: end; }
   .field { display: flex; flex-direction: column; gap: 6px; font-size: 14px; color: var(--muted); }
   .field.full { grid-column: 1 / -1; }
   .field input, .field textarea { font: inherit; font-size: 16px; color: var(--ink); border: 1.5px solid var(--line); border-radius: 11px; padding: 12px 13px; background: #fbfcfc; width: 100%; }
@@ -349,7 +349,7 @@ function hasBattery(a) { return a.battery && a.battery[0] && a.battery[0].starts
     <p class="lede" id="detLede">So we can match your answers to your property and tailor a solution to you. We only use these details for this enquiry.</p>
     <div class="q" id="staffBox" hidden><label class="field full">Staff member completing this <span class="req">*</span><input id="d-staff" name="staff" type="text" autocomplete="name"></label>
       <div class="opts compact" role="radiogroup" aria-label="How was this completed" id="via" style="margin-top:12px"></div></div>
-    <div class="q"><div class="fields">${DETAILS.map(([k, label, req, ac, full]) => `<label class="field${full ? ' full' : ''}" id="f-${k}">${label}${req ? ' <span class="req">*</span>' : ''}
+    <div class="q"><div class="fields">${DETAILS.map(([k, label, req, ac, full]) => `<label class="field${full ? ' full' : ''}" id="f-${k}"><span>${label}${req ? ' <span class="req">*</span>' : ''}</span>
       <input id="d-${k}" name="${k}" autocomplete="${ac}" ${k === 'phone' ? 'type="tel" inputmode="tel"' : k === 'email' ? 'type="email" inputmode="email"' : k === 'postcode' ? 'inputmode="numeric" maxlength="4"' : 'type="text"'}></label>`).join('')}
       </div>
       <p class="hint" style="margin-top:10px">Please give a mobile or an email so we can reach you.</p></div>
