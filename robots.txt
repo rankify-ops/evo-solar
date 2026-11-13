@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://evosolar.com.au/sitemap.xml
